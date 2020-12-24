@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Prisoner Info</title>
+    <link rel="icon" href="{% static '/images/prison.ico' %}">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static '/css/styles.css' %}" type='text/css'>
+    <script type="text/javascript" src="{% static '/js/index.js' %}" charset="utf-8">
+    </script>
+</head>
+
+<body>
+    <img class="top-logo" src="{% static '/images/logo.png' %}" alt="Punjab police logo">
+    <div class="viewDetails">
+
+        <h1>View Prisoner</h1>
+        <button class="viewButtons" onclick="window.location.href='personalInfo.html'" type="button" name="button">Personal information</button><br>
+        <button class="viewButtons" onclick="window.location.href='Assets.html'" type="button" name="button">Assets</button><br>
+        <button class="viewButtons" onclick="window.location.href='crimeDetails.html'" type="button" name="button">Crime details</button><br>
+        <button class="viewButtons" onclick="window.location.href='Sentence.html'" type="button" name="button">Sentence details</button><br>
+        <button class="viewButtons" onclick="" type="button" name="button">View tasks</button><br>
+
+    </div>
+</body>
+
+</html>

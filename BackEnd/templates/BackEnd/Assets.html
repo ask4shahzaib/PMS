@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Assets</title>
+    <link rel="icon" href="{% static '/images/prison.ico' %}">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static '/css/styles.css' %}" type='text/css'>
+    <script type="text/javascript" src="{% static '/js/index.js' %}" charset="utf-8">
+    </script>
+</head>
+
+<body>
+    <img class="top-logo" src="{% static '/images/logo.png' %}" alt="Punjab police logo">
+    <div class="viewDetails pInfo">
+        <h1>Assets</h1>
+        <label for="Assets">Assets: </label>
+        <output name="assets">cap, gun, 32 bullets, knife and chloroform</output>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sentence details</title>
+    <link rel="icon" href="{% static '/images/prison.ico' %}">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static '/css/styles.css' %}" type='text/css'>
+    <script type="text/javascript" src="{% static '/js/index.js' %}" charset="utf-8">
+    </script>
+</head>
+
+<body>
+    <img class="top-logo" src="{% static '/images/logo.png' %}" alt="Punjab police logo">
+
+    <div class="viewDetails pInfo">
+        <h1>Sentence Details</h1>
+        <label for="Description">Description: </label>
+        <output name="Description">Will be hung on 19/09/2021</output><br><br>
+    </div>
+</body>
+
+</html>

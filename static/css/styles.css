@@ -1,0 +1,276 @@
+/************************************ predefined objects ********************************************/
+
+body {
+    background-color: #153e90;
+    color: #d0e8f2;
+    /* font-family: 'Lora', serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+hr {
+    padding-top: 0px;
+    width: 50%;
+}
+
+.vl {
+    border-left: 6px solid #d0e8f2;
+    height: 500px;
+}
+
+
+/************************************ DIV classes ********************************************/
+
+.home-header {
+    padding: 20 20 0 0;
+}
+
+.middle-body {
+    display: block;
+    position: relative;
+    top: 150px;
+    margin-bottom: 20px;
+}
+
+.row1 {
+    margin-bottom: 20px;
+}
+
+.row2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.inputs {
+    border-radius: 1.5em;
+    color: black;
+}
+
+.inputs2 {
+    height: 25px;
+}
+
+.inputsPara {
+    height: 70px;
+}
+
+.personer-info {
+    display: inline;
+    position: relative;
+    left: 35px;
+    float: left;
+    padding-left: 200px;
+    margin-right: 350px;
+}
+
+.Assests {
+    display: inline-block;
+}
+
+.CrimeDetails {
+    display: block;
+}
+
+.CriminalCateory {
+    display: block;
+}
+
+.type {
+    display: inline;
+    position: relative;
+    left: 35px;
+    float: left;
+    padding-left: 200px;
+    /* margin-right: 420px; */
+}
+
+.Execution {
+    float: right;
+    padding-right: 450px;
+}
+
+.login {
+    background-color: #0a043c;
+    padding: 30px 100px 50px 50px;
+    border-radius: 1.5em;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    box-shadow: 1px 1px 2px 2px #888888;
+}
+
+.login-h1 {
+    color: #d0e8f2;
+    text-align: center;
+}
+
+.viewDetails {
+    text-align: center;
+    border-radius: 1.5em;
+    padding-left: 30px;
+    padding-right: 40px;
+    position: absolute;
+    left: 38%;
+    top: 10%;
+    box-shadow: 1px 1px 2px 2px #0a043c;
+}
+
+
+/************************************ Classes ********************************************/
+
+.b {
+    display: inline;
+}
+
+.Capacity_Box {
+    background-color: #d0e8f2;
+    border: none;
+    color: black;
+    padding: 10px 5px 10px 5px;
+    margin-bottom: none;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline;
+    position: absolute;
+    left: 45%;
+    top: 7em;
+    border-radius: 0.6em;
+}
+
+.reg {
+    margin-top: 30px;
+    margin-left: 35px;
+    height: 80px;
+    width: 120px;
+}
+
+
+/* Main h1 headding of Home page */
+
+.main-h1 {
+    display: inline;
+    position: absolute;
+    left: 35%;
+}
+
+
+/* Main h1 headding of "Add prisoner" page */
+
+.main2-h1 {
+    display: inline;
+    position: absolute;
+    left: 40%;
+}
+
+.crdts {
+    width: 5%;
+    display: inline;
+    position: absolute;
+    left: 60em;
+    top: 5em;
+    text-decoration: underline;
+}
+
+.top-logo {
+    display: inline;
+    height: 170px;
+    width: 200px;
+}
+
+.pInfo {
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+
+/* *********************************************************** BUTTONS ****************************************************** */
+
+.b1 {
+    position: absolute;
+    left: 400px;
+    width: 200px;
+    height: 110px;
+}
+
+.b2 {
+    position: absolute;
+    left: 900px;
+    width: 200px;
+    height: 110px;
+}
+
+.main_button_homePage {
+    background-color: #d0e8f2;
+    border-radius: 13px;
+    display: inline;
+    font-family: 'Lora', serif;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 15px 22px;
+}
+
+.viewButtons {
+    background-color: #d0e8f2;
+    border-radius: 13px;
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.viewButtons:hover {
+    background-color: #21209c;
+    color: #d0e8f2
+}
+
+.viewButtons:active {
+    position: relative;
+    top: 2px;
+}
+
+.main_button_homePage:hover {
+    background-color: #21209c;
+    color: #d0e8f2;
+}
+
+.reg:hover {
+    background-color: #21209c;
+    color: #d0e8f2;
+}
+
+.reg:active {
+    background-color: black;
+}
+
+.main_button_homePage:active {
+    position: relative;
+    top: 3px;
+}
+
+.buttonLogin {
+    padding-top: 5px;
+    padding-right: 10px;
+    margin-top: 20px;
+    border-radius: 0.8em;
+    text-decoration: none;
+    background-color: #d0e8f2;
+}
+
+.buttonLogin:hover {
+    background-color: #03506f;
+    color: #d0e8f2
+}
+
+.buttonLogin:active {
+    position: relative;
+    top: 1 px;
+}
+
+
+/* *****************************************************8 ADD PRISONER PAGE ******************************************* */
+
+.mustAdd {
+    color: red;
+}

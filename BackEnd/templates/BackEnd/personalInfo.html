@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Personel Info</title>
+    <link rel="icon" href="{% static '/images/prison.ico' %}">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static '/css/styles.css' %}" type='text/css'>
+    <script type="text/javascript" src="{% static '/js/index.js' %}" charset="utf-8">
+    </script>
+</head>
+
+<body>
+    <img class="top-logo" src="{% static '/images/logo.png' %}" alt="Punjab police logo">
+
+    <div class="viewDetails pInfo">
+        <h1>Personal Information</h1>
+        <label for="firstName">First name: </label>
+        <output name="First name">ABC</output><br><br>
+
+        <label for="lastName">Last name: </label>
+        <output name="Last name">XYZ</output><br><br>
+
+        <label for="Age">Age: </label>
+        <output name="Age">xy</output><br><br>
+
+        <label for="Address">Address:</label>
+        <output name="address">House # xyz in abc town, efg</output><br><br>
+
+        <label for="gender">Gender: </label>
+        <output name="address">XYZ</output><br><br>
+
+        <label for="EmergencyContact">Emergency Contact: </label>
+        <output name="Emergency Contact: "> 03xx-xxxxxxx</output>
+    </div>
+</body>
+
+</html>

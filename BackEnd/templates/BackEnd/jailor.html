@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Jailor - Home page</title>
+    <link rel="icon" href="{% static '/images/prison.ico' %}">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static '/css/styles.css' %}" type='text/css'>
+    <script type="text/javascript" src="{% static '/js/index.js' %}" charset="utf-8">
+    </script>
+</head>
+
+
+<body>
+    <!-- Login body header  -->
+    <div class="home-header">
+        <img class="top-logo" src="{% static '/images/logo.png' %}" alt="Punjab police logo">
+        <h1 class="main-h1">Prison Management System</h1>
+        <p class="crdts">by G9</p>
+        <p class="Capacity_Box" id="demo"></p>
+        <script>
+            showCapacity();
+        </script>
+    </div>
+    <hr>
+    <!-- login main body (contains the form)   -->
+
+    <div class="middle-body">
+        <button onclick="window.location.href='viewPrisoner.html'" type="button" name="button" class="main_button_homePage b1">View Prisoner</button>
+        <button onclick="window.location.href='transfer.html'" type="button" name="button" class="main_button_homePage b2">Transfer request</button>
+    </div>
+
+
+</body>
+
+</html>

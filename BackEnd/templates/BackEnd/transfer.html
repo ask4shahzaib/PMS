@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Transfer Request</title>
+    <link rel="icon" href="{% static '/images/prison.ico' %}">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static '/css/styles.css' %}" type='text/css'>
+    <script type="text/javascript" src="{% static '/js/index.js' %}" charset="utf-8">
+    </script>
+</head>
+
+<body>
+    <img class="top-logo" src="{% static '/images/logo.png' %}" alt="Punjab police logo">
+
+    <div class="viewDetails pInfo">
+        <h1>Tranfer Request</h1>
+        <label for="prisonername">Prisoner id    :</label>
+        <input class="inputs" type="text" name="" value=""><br>
+        <label for="prisonername">New Prison id:</label>
+        <input class="inputs" type="text" name="" value=""><br>
+        <label for="Description">Description: </label>
+        <textarea class="inputs inputsPara" name="paragraph_text" cols="30" rows="5"></textarea><br><br>
+        <button class="viewButtons" type="button" name="button">Request</button><br>
+    </div>
+</body>
+
+</html>
