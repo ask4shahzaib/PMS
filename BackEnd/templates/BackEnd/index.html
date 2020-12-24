@@ -24,14 +24,8 @@
 
         <label for="password">Password</label><br>
         <input class="inputs inputs2" type="password" name="pass" placeholder="Password" value=""><br>
-        <form action="{% url 'jhome' %}">
-            {% csrf_token %}
-            <input type="submit" class='b buttonLogin' value="Officer Login" />
-        </form>
-        <form action="{% url 'jhome' %}">
-            {% csrf_token %}
-            <input type="submit" class='b buttonLogin' value="Jailor Login" />
-        </form>
+        <button class="buttonLogin" onclick="window.location.href = '/ohome' " type="button" name="button">Officer Login</button>
+        <button class="buttonLogin" onclick="window.location.href = '/jhome' " type="button" name="button">Jailor Login</button>
 
     </div>
 </body>

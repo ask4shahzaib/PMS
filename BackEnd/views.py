@@ -20,5 +20,25 @@ def register(request):
     return render(request, 'BackEnd/addPrisoner.html')
 
 
-def view(request):
+def viewPrisoner(request):
+    return render(request, 'BackEnd/viewPrisoner.html')
+
+
+def transfer(request):
+    return render(request, 'BackEnd/transfer.html')
+
+
+def assets(request):
+    return render(request, 'BackEnd/Assets.html')
+
+
+def crimeDetails(request):
+    return render(request, 'BackEnd/crimeDetails.html')
+
+
+def sentence(request):
+    return render(request, 'BackEnd/Sentence.html')
+
+
+def personalInfo(request):
     return render(request, 'BackEnd/personalInfo.html')
