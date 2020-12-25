@@ -5,7 +5,7 @@ from django.contrib.auth.models import User as us
 # Create your models here.
 
 
-class Priosner(models.Model):
+class Prisoner(models.Model):
     NIC = models.CharField(max_length=13, primary_key=True)
     first_Name = models.CharField(max_length=30, null=False)
     last_Name = models.CharField(max_length=30, null=False)
@@ -16,7 +16,7 @@ class Priosner(models.Model):
         choices=choice, max_length=30, default=None, null=False)
     emergency = models.CharField(max_length=10)
     Assets = models.CharField(max_length=999)
-    Assets = models.CharField(max_length=999)
+    crimeDetails = models.CharField(max_length=999)
     choice2 = [('A', 'A'), ('B', 'B'), ('C', 'C'), ('D', 'D')]
     category = models.CharField(
         choices=choice2, max_length=30, default=None, null=False)
