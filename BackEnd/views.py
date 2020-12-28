@@ -36,7 +36,7 @@ def register(request):
         execution = request.POST['execution']
         date = request.POST['date']
         date = datetime.datetime.strptime(
-            "21/12/2008", "%d/%m/%Y").strftime("%Y-%m-%d")
+            date, '%Y-%m-%d').strftime("%Y-%m-%d")
 
         # cnic = '36402'
         # fname = 'Test'
@@ -50,7 +50,7 @@ def register(request):
         # category = 'To be Executed'
         # type = 'A'
         # execution = 'Firing'
-        # date = '2020-10-10'
+        # date = '2020-12-28'
 
         x = Prisoner(NIC=cnic, first_Name=fname, last_Name=lname, age=age, address=address, Gender=gender,
                      emergency=emergency, Assets=assets, crimeDetails=crime, category=category,

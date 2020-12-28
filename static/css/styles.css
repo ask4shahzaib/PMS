@@ -33,20 +33,23 @@ hr {
 
 .row1 {
     margin-bottom: 20px;
+    display: block;
 }
 
 .row2 {
+    display: block;
     padding-top: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .inputs {
-    border-radius: 1.5em;
+    border-radius: 0.85em;
     color: black;
 }
 
 .inputs2 {
     height: 25px;
+    color: black;
 }
 
 .inputsPara {
@@ -70,7 +73,7 @@ hr {
     display: block;
 }
 
-.CriminalCateory {
+.CriminalCategory {
     display: block;
 }
 
@@ -84,8 +87,7 @@ hr {
 }
 
 .Execution {
-    float: right;
-    padding-right: 450px;
+    padding-left: 62%;
 }
 
 .login {
@@ -135,13 +137,6 @@ hr {
     left: 45%;
     top: 7em;
     border-radius: 0.6em;
-}
-
-.reg {
-    margin-top: 30px;
-    margin-left: 35px;
-    height: 80px;
-    width: 120px;
 }
 
 
@@ -235,9 +230,18 @@ hr {
     color: #d0e8f2;
 }
 
+.reg {
+    display: block;
+    position: relative;
+    height: 80px;
+    width: 120px;
+    margin-bottom: 200px;
+}
+
 .reg:hover {
     background-color: #21209c;
     color: #d0e8f2;
+    border-color: darkred;
 }
 
 .reg:active {
@@ -269,7 +273,7 @@ hr {
 }
 
 
-/* *****************************************************8 ADD PRISONER PAGE ******************************************* */
+/* ***************************************************** ADD PRISONER PAGE ******************************************* */
 
 .mustAdd {
     color: red;
