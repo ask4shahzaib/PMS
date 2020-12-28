@@ -11,21 +11,11 @@ class Prisoner(models.Model):
     last_Name = models.CharField(max_length=30, null=False)
     age = models.IntegerField(null=False)
     address = models.CharField(max_length=999, null=False)
-    choice = [('Male', 'Male'), ('Female', 'Female')]
-    Gender = models.CharField(
-        choices=choice, max_length=30, default=None, null=False)
+    Gender = models.CharField(max_length=30, default=None, null=False)
     emergency = models.CharField(max_length=10)
     Assets = models.CharField(max_length=999)
     crimeDetails = models.CharField(max_length=999)
-    choice2 = [('A', 'A'), ('B', 'B'), ('C', 'C'), ('D', 'D')]
-    category = models.CharField(
-        choices=choice2, max_length=30, default=None, null=False)
-    choice3 = [('To be Executed', 'To be Executed'),
-               ('To be Freed', 'To be Freed')]
-    criminalType = models.CharField(
-        choices=choice3, max_length=30, default=None, null=False)
-    choice4 = [('None', 'None'), ('Hanging', 'Hanging'), ('Electrocution', 'Electrocution'),
-               ('Firing', 'Firing'), ('Gas Chamber', 'Gas Chamber'), ('Lethal Injection', 'Lethal Injection')]
-    executionType = models.CharField(
-        choices=choice4, max_length=30, default=None, null=False)
+    category = models.CharField(max_length=30, default=None, null=False)
+    criminalType = models.CharField(max_length=30, default=None, null=False)
+    executionType = models.CharField(max_length=30, default=None, null=False)
     date = models.DateField()
