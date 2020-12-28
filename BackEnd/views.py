@@ -38,26 +38,10 @@ def register(request):
         date = datetime.datetime.strptime(
             date, '%Y-%m-%d').strftime("%Y-%m-%d")
 
-        # cnic = '36402'
-        # fname = 'Test'
-        # lname = 'Prisoner'
-        # age = 20
-        # address = '852-B'
-        # gender = 'Male'
-        # emergency = '3212233444'
-        # assets = 'Poor Nigga'
-        # crime = '3 A*"s" on transcript'
-        # category = 'To be Executed'
-        # type = 'A'
-        # execution = 'Firing'
-        # date = '2020-12-28'
-
         x = Prisoner(NIC=cnic, first_Name=fname, last_Name=lname, age=age, address=address, Gender=gender,
                      emergency=emergency, Assets=assets, crimeDetails=crime, category=category,
                      criminalType=type, executionType=execution, date=date)
         x.save()
-        # print('Saved Successfully')
-    # return redirect('/')
     return render(request, 'BackEnd/register.html')
 
 
